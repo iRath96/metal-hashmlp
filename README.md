@@ -3,7 +3,7 @@ A somewhat messy re-implementation of the "learning a 2D image" example from Tho
 
 | 10 steps | 100 steps | 1000 steps | Reference image |
 |:---:|:---:|:---:|:---:|
-| ![10steps](assets/10.jpg) | ![100steps](assets/100.jpg) | ![1000steps](assets/1000.jpg) | ![reference](Sources/examples/albert.jpg) |
+| ![10steps](assets/10.jpg) | ![100steps](assets/100.jpg) | ![1000steps](assets/1000.jpg) | ![reference](Sources/Examples/albert.jpg) |
 
 ## Performance
 
