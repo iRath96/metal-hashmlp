@@ -101,8 +101,8 @@ public enum FloatPrecision {
     
     public var size: Int {
         switch self {
-        case .half: MemoryLayout<Float16>.size
-        case .float: MemoryLayout<Float32>.size
+        case .half: 2
+        case .float: 4
         }
     }
 }

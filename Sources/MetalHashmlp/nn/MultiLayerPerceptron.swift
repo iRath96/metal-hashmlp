@@ -240,7 +240,11 @@ using FloatFP = float;
     
     fileprivate func debug(for batch: Batch) {
         switch config.precision {
+#if arch(arm64)
         case .half:  debug(floatType: Float16.self, for: batch)
+#else
+        case .half:  print("cannot debug float16 on non-arm64 architecture")
+#endif
         case .float: debug(floatType: Float32.self, for: batch)
         }
     }
